@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea, input[type="text"] {
+  width: calc(100% - 20px); /* Ensures input field fits within the form */
+  padding: 10px;
+  margin-top: 10px; /* Increased top margin for better separation */
+  margin-bottom: 20px; /* Increased bottom margin */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+textarea {
+  height: 147px;
+  border: 2.5px solid #312e31;
+}
+
+button {
+  padding: 12px 25px; /* Increased padding for better click area */
+  background-color: #506275;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Added top margin for spacing */
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #092b4e; /* Darker shade when hovering */
+}
+
+button:active {
+  background-color: #003d75; /* Even darker shade when clicked */
+}
+
+input[type="text"], textarea {
+  margin-bottom: 15px; /* Extra space between fields */
+}
+

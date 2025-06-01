@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #11343f;
+  margin-bottom: 30px;
+}
+
+.poll-card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.poll-card h3 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+form .option {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+form button {
+  background: #275469;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+}
+
+form button:hover {
+  background: #0a334b;
+}
+
+.voted {
+  padding: 10px 15px;
+  background: #ccc;
+  border-radius: 6px;
+}
+
+.bar {
+  height: 8px;
+  background: #1C39BB;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: width 0.3s ease;
+}
+
+.percentage {
+  font-size: 13px;
+  color: #333;
+  margin-top: 3px;
+}
+
+.poll-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+button {
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ddd;
+}
+
